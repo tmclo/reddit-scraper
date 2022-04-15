@@ -1,4 +1,4 @@
-FROM 17-alpine3.14
+FROM node:17-alpine3.14
 
 RUN apk add bash
 RUN mkdir /app
@@ -8,6 +8,6 @@ COPY index.js /app
 COPY package.json /app
 COPY package-lock.json /app
 
-RUN cd /app && npm install
+RUN cd /app && npm install && npm run build
 
-CMD [ "/bin/bash", "-c", "cd /app && npm run start" ]
+CMD [ "/bin/bash", "-c", "cd /app && npm run start && bash" ]
