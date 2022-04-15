@@ -4,6 +4,9 @@
   "description": "watches a subreddit and downloads new images",
   "main": "index.js",
   "scripts": {
+    "start": "forever start index.js",
+    "build": "npm install && npm install -g forever",
+    "lint": "eslint --ext .js,.vue src test/unit",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
