@@ -12,6 +12,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "image-downloader": "^4.2.0",
     "snoostorm": "^1.5.2",
     "snoowrap": "^1.23.0"
   }

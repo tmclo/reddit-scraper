@@ -1,4 +1,6 @@
 ## ignore the credentials file
 credentials.json
 ## ignore node_modules
-.node_modules/*
+node_modules/*
+##ignore the submission example used for development
+submission-example.txt
