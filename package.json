@@ -6,7 +6,7 @@
   "scripts": {
     "start": "forever start index.js",
     "build": "npm install && npm install -g forever",
-    "lint": "eslint --ext .js,.vue src test/unit",
+    "lint": "eslint --ext .js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
