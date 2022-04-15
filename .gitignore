@@ -1,0 +1,4 @@
+## ignore the credentials file
+credentials.json
+## ignore node_modules
+.node_modules/*

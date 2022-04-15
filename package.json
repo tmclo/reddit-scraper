@@ -1,0 +1,15 @@
+{
+  "name": "redditscraper",
+  "version": "1.0.0",
+  "description": "watches a subreddit and downloads new images",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "snoostorm": "^1.5.2",
+    "snoowrap": "^1.23.0"
+  }
+}
