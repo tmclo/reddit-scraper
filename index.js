@@ -7,7 +7,6 @@ var mysql = require('mysql');
 const AWS = require('aws-sdk');
 const fs = require('fs');
 var path = require("path");
-var subs = require("./subs.js");
 require('dotenv').config();
 
 // Define the following environment variables in .env
