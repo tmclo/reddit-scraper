@@ -4,7 +4,7 @@
   "description": "watches a subreddit and downloads new images",
   "main": "index.js",
   "scripts": {
-    "start": "pm2 start index.js",
+    "start": "node index.js",
     "build": "npm install && npm install pm2 -g",
     "lint": "eslint --ext .js",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -12,7 +12,13 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "aws-sdk": "^2.1116.0",
+    "dotenv": "^16.0.0",
+    "fs": "^0.0.1-security",
     "image-downloader": "^4.2.0",
+    "ioredis": "^5.0.4",
+    "mysql": "^2.18.1",
+    "path": "^0.12.7",
     "snoostorm": "^1.5.2",
     "snoowrap": "^1.23.0"
   }

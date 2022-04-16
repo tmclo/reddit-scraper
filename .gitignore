@@ -1,6 +1,10 @@
+## ignore .env file
+.env
 ## ignore the credentials file
 credentials.json
 ## ignore node_modules
-node_modules/*
+node_modules/
 ##ignore the submission example used for development
 submission-example.txt
+## ignore dev notes
+just-a-text-file.txt
