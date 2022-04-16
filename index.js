@@ -10,6 +10,13 @@ var path = require("path");
 var subs = require("./subs.js");
 require('dotenv').config();
 
+// Define the following environment variables in .env
+// AWS_ACCESS_KEY_ID
+// AWS_SECRET_ACCESS_KEY
+// AWS_BUCKET_NAME
+// MYSQL_PASSWORD
+// REDIS_PASSWORD
+
 var con = mysql.createConnection({
     host: "dbcluster",
     user: "user",
