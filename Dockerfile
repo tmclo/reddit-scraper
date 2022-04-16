@@ -3,10 +3,7 @@ FROM node:17-alpine3.14
 RUN apk add bash
 RUN mkdir /app
 
-COPY ./credentials.json /app
-COPY index.js /app
-COPY package.json /app
-COPY package-lock.json /app
+COPY ["credentials.json", "index.js", "package.json", "package-lock.json", "./"]
 
 RUN cd /app && npm install && npm run build
 
